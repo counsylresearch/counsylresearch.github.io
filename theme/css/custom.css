@@ -1,0 +1,60 @@
+/*	Counsyl branding to override Bootstrap & Pelican theme
+-------------------------------------------------------*/ 
+
+
+/*	Navbar styling to add top border, shadow, spacing
+-------------------------------------------------------*/ 
+.navbar {
+	border-top: 0.3em solid rgb(89,  208, 208);
+	box-shadow: 0px 0px 6px rgba(33,33,33,0.1);
+}
+
+.navbar-nav > li > a {
+	padding-bottom: 21.5px;
+	padding-top: 27.5px;
+}
+
+/*  Adds hover bg back in  */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: rgb(250, 250, 250);
+}
+
+/*	Fixes sizing for logo.svg  */
+.navbar-brand img {
+	height: 100%;
+	width: auto;
+}
+
+
+/*	Misc type adjustments
+-------------------------------------------------------*/ 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: rgb(16,  191, 192);
+}
+
+.entry-title {
+	margin-top: 40px;
+}
+
+.entry-content li {
+	margin-bottom: 0.75em;
+}
+
+
+
+/*	Styles + icon for the "link" at end of each listing
+-------------------------------------------------------*/ 
+.entry-content li a:before {
+	content: "— \f0c1 ";
+	padding-right: 0.25em;
+	border-bottom: none;
+	font-family: FontAwesome;
+	font-weight: normal;
+}
+
+.entry-content li a {
+	font-weight: bold;
+	color: rgb(16,  191, 192);
+	width: 0;
+}
+
